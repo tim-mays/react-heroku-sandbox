@@ -11,7 +11,7 @@ import path from 'path';
 import webpack from 'webpack';
 import merge from 'lodash.merge';
 
-const DEBUG = !process.argv.includes('release');
+const DEBUG = process.argv.includes('dev');
 const VERBOSE = process.argv.includes('verbose');
 const WATCH = global.WATCH === undefined ? false : global.WATCH;
 const AUTOPREFIXER_BROWSERS = [
