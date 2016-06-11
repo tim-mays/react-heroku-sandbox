@@ -1,0 +1,6 @@
+{
+  "name": "LessonsPage",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./LessonsPage.js"
+}
